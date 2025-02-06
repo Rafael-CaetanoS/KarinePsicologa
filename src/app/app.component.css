@@ -1,0 +1,335 @@
+.cabecalho-esquerda{
+    color: var(--cor1);
+}
+
+.cabecalho-direita{
+ color: var(--principal);
+}
+
+
+.inicio{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.inicio-nome{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nome{
+    font-size: 2.7rem;
+    font-weight: bold;
+    color: var(--cor1);
+}
+
+.psicologa{
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: var(--principal);
+}
+
+.crp{
+    font-size: 1.7rem;
+    color: var(--principal);
+    font-weight: bold;
+}
+
+#foto-inicio{
+    width: 280px;
+    height: 280px;
+    border-radius: 20px;
+}
+
+.button{
+    margin: 40px auto;
+}
+
+.button a {
+    color: #fff;
+    text-decoration: none;
+    background-color: var(--principal);
+    padding: 20px 50px;
+    border-radius: 20px;
+    font-size: 20px;
+
+}
+
+
+.button a:hover {
+  font-size: 21px;
+}
+
+.frase{
+    background-color: var(--principal);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.aspas{
+    width: 50px;
+    height: 50px;
+}
+
+.texto-frase span{
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.dados{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.sobre-foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.sobre-imagem {
+    width: 200px; 
+    height: 200px;
+    border-radius: 50%; 
+    overflow: hidden; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid var(--principal); 
+  }
+  
+  .sobre-imagem img {
+    width: 102%; 
+    align-items: center;
+  }
+
+    
+.sobre-descricao{
+    width: 90%;
+}
+
+.sobre-descricao p{
+    font-size: 1.5rem;
+    color: var(--principal);
+}
+
+.titulo{
+    font-size: 28px;
+    font-weight: bolder;
+    color:var(--cor1);
+}
+
+.titulo2{
+    font-size: 28px;
+    font-weight: bolder;
+    color:var(--cor1);
+}
+
+.cards{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.espacos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    
+}
+
+.contatos{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contato{
+    margin-top: 3rem;
+}
+
+.redes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#logotipo{
+    width: 400px;
+}
+
+.locais{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.whatsapp-link {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: var(--cor1);
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+}
+
+#link-whatsApp{
+    display: none;
+}
+
+@media only screen and (min-width: 720px){
+    .inicio{
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .nome{
+        font-size: 1.8rem;}
+    .psicologa{
+        font-size: 1.5rem;
+    }
+    .crp{
+        font-size: 1.4rem;
+    }
+
+    .frase{
+        height:20vh;
+    }
+
+    .titulo{
+        text-align: center;
+        padding-top: 100px;
+    }
+
+    #foto-inicio{
+        width: 250px;
+        height: 250px;
+    }
+       
+    .contatos{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .contato{
+        margin-top: 0rem;
+        justify-content: baseline;
+    }
+
+    .redes{
+        width: 33%;
+    }
+
+    .locais{
+        width: 33%;
+    }
+
+    .logocontato{
+        width: 33%;
+    }
+
+    .whatsapp-link {
+        position: fixed;
+        width: 220px;
+        height: 60px;
+        bottom: 40px;
+        right: 40px;
+        background-color: var(--cor1);
+        border-radius: 40px;
+        color: #fff;
+        text-align: center;
+        text-decoration: none;
+        font-size: 20px;
+        box-shadow: 1px 1px 2px #888;
+        z-index: 1000;
+    }
+
+    #link-whatsApp{
+        margin-left: 5px;
+        display: inline;
+    }
+    
+    .fa-whatsapp {
+        margin-top: 16px;
+    }
+
+}
+
+
+@media only screen and (min-width: 1024px){
+    .inicio{
+        padding-top: 150px;
+        display: flex;
+        flex-direction: row;
+        gap: 5rem;
+    }
+
+    .nome{
+        font-size: 3rem;}
+
+    .psicologa{
+        font-size: 2.2rem;
+
+    }
+    
+    .crp{
+        font-size: 1.7rem;
+
+    }
+
+    .frase{
+        height: 30vh;
+    }
+
+    #foto-inicio{
+        width: 400px;
+        height: 400px;
+    }
+
+    .dados{
+        flex-direction: row;
+    }
+
+    .sobre-foto{
+        width: 50%;
+    }
+
+    .sobre-descricao{
+        width: 50%;
+    }
+
+    .sobre-imagem {
+        width: 300px; 
+        height: 300px;
+      }
+      
+
+
+    .servicos-card{
+        width: 40%;
+    }
+
+}

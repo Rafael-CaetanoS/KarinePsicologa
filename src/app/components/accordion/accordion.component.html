@@ -1,0 +1,26 @@
+<div class="accordion accordion-flush" [id]="accordionId">
+  <div class="accordion-item">
+    <h2 class="accordion-header" [id]="headingId">
+      <button
+        class="accordion-button collapsed"
+        type="button"
+        data-bs-toggle="collapse"
+        [attr.data-bs-target]="'#' + collapseId"
+        aria-expanded="false"
+        [attr.aria-controls]="collapseId"
+      >
+        {{ title }}
+      </button>
+    </h2>
+    <div
+      [id]="collapseId"
+      class="accordion-collapse collapse"
+      [attr.aria-labelledby]="headingId"
+      [attr.data-bs-parent]="'#' + accordionId"
+    >
+      <div class="accordion-body">
+        <ng-content></ng-content>
+      </div>
+    </div>
+  </div>
+</div>
