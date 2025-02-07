@@ -39,21 +39,21 @@ ng server
     <img src="/inicio.png" alt="Image Example" width="800px">
 </p>
 <p align="center">
-    <img src="/2.jpg" alt="Image Example" width="800px">
+    <img src="/2.png" alt="Image Example" width="800px">
 </p>
 
 <p align="center">
-    <img src="/3.jpg" alt="Image Example" width="800px">
+    <img src="/3.png" alt="Image Example" width="800px">
 </p>
 <p align="center">
-    <img src="/4.jpg" alt="Image Example" width="800px">
-</p>
-
-<p align="center">
-    <img src="/5.jpg" alt="Image Example" width="800px">
+    <img src="/4.png" alt="Image Example" width="800px">
 </p>
 
 <p align="center">
-    <img src="/6.jpg" alt="Image Example" width="800px">
+    <img src="/5.png" alt="Image Example" width="800px">
+</p>
+
+<p align="center">
+    <img src="/6.png" alt="Image Example" width="800px">
 </p>
 
