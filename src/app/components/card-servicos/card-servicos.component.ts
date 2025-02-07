@@ -10,6 +10,8 @@ import { Component, Input } from '@angular/core';
 export class CardServicosComponent {
  @Input()
  titulo?:string;
+ @Input()
+ descricao?:string;
 //  @Input()
 //  informacao?:string ;
 
