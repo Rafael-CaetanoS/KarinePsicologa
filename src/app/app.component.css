@@ -1,9 +1,11 @@
 .cabecalho-esquerda{
+    font-size: 18px;
     color: var(--principal);
 }
 
 .cabecalho-direita{
- color: var(--principal);
+    font-size: 18px;
+    color: var(--principal);
 }
 
 
@@ -158,54 +160,57 @@
 .contatos{
     background-color: #fff;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-}
-
-.contato{
-    margin-top: 3rem;
+    flex-direction: column;
 }
 
 .redes{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.contato-links{
+    display: flex;
+    flex-direction: column;
+}
+
+.contato-links a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--principal);
+    margin-bottom: 10px;
+
+}
+
+.contato-links span{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--principal);
+    margin-bottom: 10px;
+}
+
+.logo-contato{
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.contato-links{
-    display:flex;
-    flex-direction: column;
-    text-align: center;
-
-}
-
-.contato-links a{
-   text-decoration: none;
-   font-size: 18px;
-   color: var(--cor1);
-   margin-bottom: 10px;
-   
-}
-
-.contato-links span{
-    font-size: 18px;
-    color: var(--cor1);
-    margin-bottom: 10px;
- }
-
-
 #logotipo{
-    width: 300px;
+    width: 200px;
 }
 
 .locais{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
+
 
 .whatsapp-link {
     position: fixed;
@@ -230,6 +235,7 @@ footer{
     background-color:var(--principal);
     color: #fff;
     text-align: center;
+    font-size: 13px;
     padding: 10px;
     bottom: 0; 
     width: 100%;
