@@ -1,27 +1,59 @@
-# Karinewebsite
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.9.
+[TYPESCRIPT__BADGE]: https://img.shields.io/badge/typescript-D4FAFF?style=for-the-badge&logo=typescript
+[ANGULAR__BADGE]: https://img.shields.io/badge/Angular-red?style=for-the-badge&logo=angular
 
-## Development server
+<h1 align="center" style="font-weight: bold;">KarinePsicologa💻</h1>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+![angular][ANGULAR__BADGE]
+![typescript][TYPESCRIPT__BADGE]
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<p align="center">
+ <a href="#about">Sobre</a> • 
+ <a href="#started">Para dar início ao sistema.</a> • 
+</p>
 
-## Build
+<h2 id="about">📌 Sobre </h2>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+"Desenvolvimento de uma aplicação web em Angular para uma psicóloga, com o objetivo de proporcionar uma plataforma moderna e funcional para que ela possa se apresentar de maneira atraente e profissional para novos clientes.
 
-## Running unit tests
+<h2 id="started">🚀 Para dar início ao sistema.</h2>
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Para iniciar o sistema localmente precisa seguir os passos abaixo:
 
-## Running end-to-end tests
+<h3>Pré-requisitos</h3>
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- [NodeJS](https://github.com/)
+- [Angular](https://github.com)
 
-## Further help
+<h3>Iniciar</h3>
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+como dar inicio ao sistema:
+
+```bash
+cd project-name
+ng server
+```
+
+<p align="center">
+    <img src="/inicio.png" alt="Image Example" width="800px">
+</p>
+<p align="center">
+    <img src="/2.png" alt="Image Example" width="800px">
+</p>
+
+<p align="center">
+    <img src="/3.png" alt="Image Example" width="800px">
+</p>
+<p align="center">
+    <img src="/4.png" alt="Image Example" width="800px">
+</p>
+
+<p align="center">
+    <img src="/5.png" alt="Image Example" width="800px">
+</p>
+
+<p align="center">
+    <img src="/6.png" alt="Image Example" width="800px">
+</p>
+
