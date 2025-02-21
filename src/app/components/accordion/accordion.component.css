@@ -1,0 +1,21 @@
+
+button{
+    font-size: 18px;
+    color: var(--principal);
+    font-weight: bold;
+}
+
+.accordion-body{
+    font-size: 15px;
+}
+
+@media only screen and (min-width: 720px){
+    button{
+        font-size: 20px;
+    }
+    
+    .accordion-body{
+        font-size: 20px;
+    }
+    
+}

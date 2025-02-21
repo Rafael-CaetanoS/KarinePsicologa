@@ -11,7 +11,7 @@ import 'aos/dist/aos.css';
   standalone: true,
   imports: [CommonModule, CardServicosComponent, AccordionComponent, CardEspacosComponent],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css', './app.component.responsividade.css']
 })
 export class AppComponent implements AfterViewInit {
   title = 'karinewebsite';
