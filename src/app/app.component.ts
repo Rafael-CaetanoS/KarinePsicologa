@@ -4,7 +4,7 @@ import { CardServicosComponent } from "./components/card-servicos/card-servicos.
 import { AccordionComponent } from "./components/accordion/accordion.component";
 import { CardEspacosComponent } from "./components/card-espacos/card-espacos.component";
 import AOS from 'aos';
-import 'aos/dist/aos.css'; 
+import 'aos/dist/aos.css';
 
 @Component({
   selector: 'app-root',
@@ -19,6 +19,13 @@ export class AppComponent implements AfterViewInit {
   ngAfterViewInit(): void {
     AOS.init();
   }
+
+  mostrarConteudoExtra: boolean = false;
+
+  toggleConteudoExtra() {
+    this.mostrarConteudoExtra = !this.mostrarConteudoExtra;
+  }
+
 
 
 }
