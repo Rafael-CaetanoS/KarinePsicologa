@@ -63,6 +63,7 @@
     .carousel-item {
         text-align: center;
         margin: 0px;
+        height: 540px;
     }
     
     .carousel-item img {
