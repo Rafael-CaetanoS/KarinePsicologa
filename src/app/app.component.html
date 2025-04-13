@@ -103,6 +103,31 @@
   </div>
 </div>
 
+<div class="container-fluid fotos-carousel mb-2">
+  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../assets/images/11.jpg" data-aos="fade-down" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="../assets/images/12.jpg" data-aos="fade-down" class=" d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="../assets/images/22.jpg" data-aos="fade-down" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="../assets/images/23.jpg" data-aos="fade-down" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="../assets/images/33.jpg" data-aos="fade-down" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="../assets/images/44.jpg" data-aos="fade-down" class="d-block w-100" alt="...">
+      </div>
+    </div>
+  </div>
+</div> 
+
 <div class="container" id="duvidas" >
   <div class="duvidas">
     <h1 class="titulo mb-3"  data-aos="fade-down">DÚVIDAS SOBRE PSICOTERAPIA</h1>
@@ -232,66 +257,6 @@
         >
         Não realizo atendimentos por convênio, mas forneço nota fiscal e relatório para que você possa solicitar reembolso junto ao seu plano de saúde.
       </app-accordion>
-    </div>
-  </div>
-</div>
-
-<div class="container-fluid mt-5" id="tdah">
-  <div class="container">
-    <div class="tdah">
-      <h3 class="titulo titulo-tdah" data-aos="fade-down">TDAH</h3>
-  
-      <div class="tdah-sobre">
-        <div class="tdah-informacoes">
-          <div class="tdah-topico mt-3 mb-4">
-            <h4 class="subtitulo-tdah">TDAH na Infância: Como Identificar os Sinais e Sintomas?</h4>
-            <p class="sobre-tdah">
-              O Transtorno do Déficit de Atenção e Hiperatividade (TDAH) é uma condição neurobiológica que afeta o desenvolvimento da atenção, do controle dos impulsos e da autorregulação. Muitas crianças são inquietas e distraídas por natureza, mas quando esses comportamentos ocorrem de forma intensa, persistente e impactam o aprendizado e a socialização, é importante investigar.
-            </p>
-          </div>
-        
-          <div class="tdah-topico mt-3 mb-4">
-            <h4 class="subtitulo-tdah">Quais são os principais sinais do TDAH?</h4>
-            <p class="sobre-tdah">
-              O TDAH se manifesta de três formas: desatenção, hiperatividade/ impulsividade ou misto. A criança pode apresentar um desses aspectos com mais intensidade, mas, em muitos casos, há uma combinação dos sintomas.
-            </p>
-          </div>
-
-          <div>
-            <ul  class="mb-4">
-              <h5 class="subtitulo-tdah">Sinais de Desatenção:</h5>
-              <li class="sobre-tdah">✔ Dificuldade em prestar atenção a detalhes, cometendo erros por descuido.</li>
-              <li class="sobre-tdah">✔ Parece não escutar quando falam diretamente com ela.</li>
-              <li class="sobre-tdah">✔ Dificuldade em seguir instruções e concluir tarefas escolares.</li>
-              <li class="sobre-tdah">✔ Esquece compromissos e materiais frequentemente.</li>
-              <li class="sobre-tdah">✔ Evita ou adia atividades que exigem esforço mental prolongado.</li>
-            </ul>
-            
-            <div *ngIf="mostrarConteudoExtra">
-              <ul class="mb-4">
-                <h5 class="subtitulo-tdah" >Sinais de Hiperatividade:</h5>
-                <li class="sobre-tdah">✔ Fala excessivamente e interrompe conversas.</li>
-                <li class="sobre-tdah">✔ Não consegue ficar parada por muito tempo, movimenta-se constantemente.</li>
-                <li class="sobre-tdah">✔ Tem dificuldade em brincar de forma tranquila.</li>
-                <li class="sobre-tdah">✔ Fica inquieta, mexendo mãos e pés frequentemente.</li>
-              </ul>
-              
-              <ul class="mb-4">
-                <h5 class="subtitulo-tdah">Sinais de Impulsividade:</h5>
-                <li class="sobre-tdah">✔ Responde perguntas antes de serem concluídas.</li>
-                <li class="sobre-tdah">✔ Tem dificuldade em esperar a sua vez em jogos e atividades.</li>
-                <li class="sobre-tdah">✔ Interrompe ou se intromete em conversas e brincadeiras alheias.</li>
-                <li class="sobre-tdah">✔ Age sem pensar nas consequências.</li>
-              </ul>
-            </div>    
-          </div>
-        <div class="ver-mais">
-          <button (click)="toggleConteudoExtra()" class=" mb-5">
-            {{ mostrarConteudoExtra ? 'Ver menos' : 'Ver mais' }}
-          </button>
-        </div>
-        </div>
-      </div>
     </div>
   </div>
 </div>

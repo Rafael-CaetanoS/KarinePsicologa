@@ -20,6 +20,9 @@
         text-align: center;
         padding-top: 100px;
     }
+    .titulo2{
+        font-size: 28px;
+    }
 
     .nome{
         font-size: 1.8rem;}
@@ -51,6 +54,36 @@
     #foto-inicio{
         width: 250px;
         height: 250px;
+    }
+
+    .fotos-carousel{
+        background-color: var(--principal);
+    }
+
+    .carousel-item {
+        text-align: center;
+        margin: 0px;
+    }
+    
+    .carousel-item img {
+        max-width: 400px;
+        width: 100%;
+        margin: 3px auto;
+        border-radius: 20px;
+    }
+    
+    #carouselExampleAutoplaying {
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    /* Garante que a imagem e botões fiquem dentro da mesma área */
+    .carousel-inner {
+        position: relative;
+        width: 100%;
     }
        
     .contatos{
@@ -133,7 +166,7 @@
     }
 
     #foto-inicio{
-        width: 400px;
+        width: 370px;
         height: 400px;
     }
 
